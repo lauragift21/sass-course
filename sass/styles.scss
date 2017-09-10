@@ -1,5 +1,47 @@
-$primary-color: #1A1A1A;
+$primary-color: #FEFEFE;
+
+//makes code easy to read and that the major key and great commenting.
+
+//  RESET ==========================
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+}
+
+//  BASE STYLES =====================
 
 body {
-    background: $primary-color;
+    background: #333;
+    font-size: 19px;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'Helvetica Neue' Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+// HEADER ============================
+#site__header {
+    background: #222;
+    height: 80px;
+}
+
+// FOOTER ============================
+#site__footer {
+    background: #222;
+    height: 80px;
+}
+// MAIN CONTENT ===========================
+#site__main {
+    width: 1200px;
+    margin: 10px auto;
+
+}
+
+// ARTICLE =============================
